@@ -10,7 +10,7 @@ function addCurrentWeather(temp, conditions, icon)
         </div>
         <div id="description">
             <p>${conditions}</p>
-            <img id="icon" src="/${icon}.png">
+            <img id="icon" src="${icon}.png">
         </div>
     </div>`
 }
